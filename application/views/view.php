@@ -32,7 +32,7 @@ date_default_timezone_set("Asia/Kolkata");
                 </thead>
                 <tbody>
                     <?php
-                    $targetDir = FCPATH . "uploads";
+                    $targetDir = FCPATH . "uploads/";
                         $dir=$targetDir;
                         $slno=0;
                         if (is_dir($dir)){
